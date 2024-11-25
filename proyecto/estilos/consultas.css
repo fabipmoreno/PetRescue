@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 5px;
+    left: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #e3f9fa; 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+main {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 75px !important;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user-actions a {
+    margin-right: 40px;
+}
+
+.user-actions a img {
+    width: 30px;
+    height: auto;
+}
+
+.user-icon {
+    width: 40px;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #e3f9fa;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer nav {
+    margin-bottom: 10px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+footer nav a:hover {
+    color: rgb(243, 186, 169);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    padding: 20px;
+}
+
+form {
+    max-width: 350px;
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(200, 246, 246);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #80e4f5;
+    color: #070707;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #46daf1;
+}

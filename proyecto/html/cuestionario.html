@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de Mascota Perdida</title>
+    <link rel="stylesheet" href="../estilos/cuestionario.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.php">
+                <img src="../imagenes/logoPetRescue.png" alt="Logo de PetRescue">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.php">Inicio</a></li>
+                <li><a href="../mascotas_perdidas.php">Mascotas Perdidas</a></li>
+                <li><a href="../mapa.php">Mapa</a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <a href="#" id="loginButton"><img src="../imagenes/iniciosesion.png" alt="Iniciar Sesión" style="width: 40px; height: auto;"></a>
+        </div>
+
+        <div id="loginForm" style="display: none;">
+            <form>
+                Usuario: <input type="text" name="username"><br>
+                Contraseña: <input type="password" name="password"><br>
+                <input type="submit" value="Iniciar Sesión">
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <form action="../procesar_cuestionario.php" method="POST" enctype="multipart/form-data">
+
+            <label for="nombre">Nombre de la mascota:</label>
+            <input type="text" id="nombre" name="nombre" required><br>  
+            <br>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion" required placeholder="Se perdió en X... Si le encuentran llamen por favor al +34 XXX XX XX XX"></textarea><br>
+            <br>
+            <label for="foto">Foto de la mascota:</label>   
+            <input type="file" id="foto" name="foto" accept="image/*" required><br>
+            <br>
+            <input type="submit" value="Enviar reporte">
+        </form>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="politica_privacidad.html" target="_blank">Política de privacidad</a> |
+            <a href="terminos_condiciones.html" target="_blank">Términos y condiciones</a> |
+            <a href="preguntas_frecuentes.html" target="_blank">Preguntas frecuentes</a>
+        </nav>
+        <p>&copy; 2023 PetRescue - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>

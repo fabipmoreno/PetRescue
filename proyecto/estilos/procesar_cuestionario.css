@@ -1,0 +1,34 @@
+/* Estilos para el div de la nueva mascota */
+.story-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.story-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info p {
+    font-weight: bold;
+}
+
+.story-content {
+    margin-left: 50px;
+}

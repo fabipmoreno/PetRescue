@@ -1,0 +1,29 @@
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    #map {
+        height: 400px; 
+    }
+
+    button.consultas {
+        background-color: #d1f4f6;
+        color: #333;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        display: inline-block; 
+        margin-top: 20px; 
+    }
+
+    button.consultas:hover {
+        background-color: #28d1c6;
+    }
+
+    
